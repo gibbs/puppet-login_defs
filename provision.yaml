@@ -3,3 +3,4 @@ default:
   provisioner: docker
   images:
     - 'litmusimage/ubuntu:20.04'
+    - 'litmusimage/ubuntu:18.04'
