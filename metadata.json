@@ -1,0 +1,26 @@
+{
+  "name": "genv-login_defs",
+  "version": "0.1.0",
+  "author": "Dan Gibbs <dev@dangibbs.co.uk>",
+  "summary": "Manage login.defs",
+  "license": "Apache-2.0",
+  "source": "https://github.com/gibbs/puppet-login_defs",
+  "dependencies": [],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "20.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 6.21.0 < 8.0.0"
+    }
+  ],
+  "pdk-version": "2.3.0",
+  "template-url": "pdk-default#2.3.0",
+  "template-ref": "tags/2.3.0-0-g8aaceff"
+}

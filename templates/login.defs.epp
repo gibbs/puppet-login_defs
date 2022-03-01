@@ -1,0 +1,12 @@
+# MANAGED BY PUPPET
+<% $options.each |$setting,$option| { -%>
+<% if $option[comment] { -%>
+
+# <%= $option[comment].split("\n").join("\n# ") %>
+<% } -%>
+<% if $option[enabled] == false { -%>
+#<%= $setting %>	<%= $option['value'] %>
+<% } else { -%>
+<%= $setting %>	<%= $option['value'] %>
+<% } -%>
+<% } -%>
