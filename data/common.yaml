@@ -1,2 +1,7 @@
 ---
+lookup_options:
+  'login_defs::^(.*)$':
+    merge:
+      strategy: deep
+
 login_defs::package_manage: false
