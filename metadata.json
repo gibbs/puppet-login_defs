@@ -5,7 +5,9 @@
   "summary": "Manage login.defs",
   "license": "Apache-2.0",
   "source": "https://github.com/gibbs/puppet-login_defs",
-  "dependencies": [],
+  "dependencies": [
+
+  ],
   "operatingsystem_support": [
     {
       "operatingsystem": "AlmaLinux",
@@ -52,7 +54,7 @@
       "version_requirement": ">= 6.21.0 < 8.0.0"
     }
   ],
-  "pdk-version": "2.3.0",
-  "template-url": "pdk-default#2.3.0",
+  "pdk-version": "2.4.0",
+  "template-url": "https://github.com/puppetlabs/pdk-templates#2.3.0",
   "template-ref": "tags/2.3.0-0-g8aaceff"
 }

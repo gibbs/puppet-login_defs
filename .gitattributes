@@ -3,4 +3,3 @@
 *.pp eol=lf
 *.sh eol=lf
 *.epp eol=lf
-*.yaml eol=lf

@@ -1,13 +1,9 @@
-*~
-/[Bb]ackup*/
 .git/
 .*.sw[op]
 .metadata
 .yardoc
 .yardwarns
 *.iml
-/.devcontainer/
-/.vscode/
 /.bundle/
 /.idea/
 /.vagrant/
@@ -30,3 +26,9 @@
 .envrc
 /inventory.yaml
 /spec/fixtures/litmus_inventory.yaml
+/[Bb]ackup*/
+/.devcontainer/
+/.gitlab-ci.yml
+/.travis.yml
+/.vscode/
+/appveyor.yml
