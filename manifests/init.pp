@@ -35,7 +35,6 @@ class login_defs (
   Variant[String[1], Integer] $group        = 0,
   String[3,4] $mode                         = '0644',
 ) {
-
   if $package_manage {
     package { $package_name:
       ensure => $package_ensure,
