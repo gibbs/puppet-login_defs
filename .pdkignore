@@ -47,3 +47,4 @@
 /.devcontainer/
 /[Bb]ackup*/
 /provision.yaml
+/.github
