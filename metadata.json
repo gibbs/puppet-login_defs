@@ -1,6 +1,6 @@
 {
   "name": "genv-login_defs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "gibbs",
   "summary": "Manage login.defs",
   "license": "Apache-2.0",
