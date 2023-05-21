@@ -25,11 +25,7 @@ jobs:
 
       - uses: actions/checkout@v3
 
-      - name: Setup ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '2.7.3'
-          bundler-cache: true
+      - run: pdk bundle install
 
       - name: Run static validations
         run: pdk bundle exec rake validate lint check
