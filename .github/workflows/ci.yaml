@@ -21,7 +21,7 @@ jobs:
         run: |
           export DEBIAN_FRONTEND=noninteractive;
           apt-get -y update
-          apt-get -y install build-essential
+          apt-get -y install build-essential libyaml-0-2
 
       - uses: actions/checkout@v3
 
@@ -70,7 +70,8 @@ jobs:
       BOLT_GEM: true
       CI: true
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+
       - name: Setup ruby
         uses: ruby/setup-ruby@v1
         with:
