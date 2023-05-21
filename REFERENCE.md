@@ -10,7 +10,7 @@
 
 ### Data types
 
-* [`Login_Defs::Option`](#login_defsoption): login.defs option
+* [`Login_Defs::Option`](#Login_Defs--Option): login.defs option
 
 ## Classes
 
@@ -22,23 +22,23 @@ Manage the configuration control definitions for the login package
 
 The following parameters are available in the `login_defs` class:
 
-* [`options`](#options)
-* [`package_ensure`](#package_ensure)
-* [`package_manage`](#package_manage)
-* [`package_name`](#package_name)
-* [`owner`](#owner)
-* [`group`](#group)
-* [`mode`](#mode)
+* [`options`](#-login_defs--options)
+* [`package_ensure`](#-login_defs--package_ensure)
+* [`package_manage`](#-login_defs--package_manage)
+* [`package_name`](#-login_defs--package_name)
+* [`owner`](#-login_defs--owner)
+* [`group`](#-login_defs--group)
+* [`mode`](#-login_defs--mode)
 
-##### <a name="options"></a>`options`
+##### <a name="-login_defs--options"></a>`options`
 
 Data type: `Hash[String, Login_Defs::Option]`
 
 A hash of options to configure /etc/login.defs
 
-Default value: ``undef``
+Default value: `undef`
 
-##### <a name="package_ensure"></a>`package_ensure`
+##### <a name="-login_defs--package_ensure"></a>`package_ensure`
 
 Data type: `String`
 
@@ -46,23 +46,23 @@ The login/shadow util package state to use when using $package_manage
 
 Default value: `'installed'`
 
-##### <a name="package_manage"></a>`package_manage`
+##### <a name="-login_defs--package_manage"></a>`package_manage`
 
 Data type: `Boolean`
 
 Set to true to manage the login/shadow utility package
 
-Default value: ``false``
+Default value: `false`
 
-##### <a name="package_name"></a>`package_name`
+##### <a name="-login_defs--package_name"></a>`package_name`
 
 Data type: `String[1]`
 
 The package name to use when managing the login/shadow utility package
 
-Default value: ``undef``
+Default value: `undef`
 
-##### <a name="owner"></a>`owner`
+##### <a name="-login_defs--owner"></a>`owner`
 
 Data type: `Variant[String[1], Integer]`
 
@@ -70,7 +70,7 @@ The owner to set on /etc/login.defs
 
 Default value: `'root'`
 
-##### <a name="group"></a>`group`
+##### <a name="-login_defs--group"></a>`group`
 
 Data type: `Variant[String[1], Integer]`
 
@@ -78,7 +78,7 @@ The group to set on /etc/login.defs
 
 Default value: `0`
 
-##### <a name="mode"></a>`mode`
+##### <a name="-login_defs--mode"></a>`mode`
 
 Data type: `String[3,4]`
 
@@ -88,7 +88,7 @@ Default value: `'0644'`
 
 ## Data types
 
-### <a name="login_defsoption"></a>`Login_Defs::Option`
+### <a name="Login_Defs--Option"></a>`Login_Defs::Option`
 
 login.defs option
 
