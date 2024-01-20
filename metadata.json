@@ -18,22 +18,16 @@
       ]
     },
     {
-      "operatingsystem": "CentOS",
-      "operatingsystemrelease": [
-        "7"
-      ]
-    },
-    {
       "operatingsystem": "Debian",
       "operatingsystemrelease": [
-        "11",
-        "10"
+        "12",
+        "11"
       ]
     },
     {
       "operatingsystem": "RedHat",
       "operatingsystemrelease": [
-        "8"
+        "9"
       ]
     },
     {
@@ -46,8 +40,7 @@
       "operatingsystem": "Ubuntu",
       "operatingsystemrelease": [
         "22.04",
-        "20.04",
-        "18.04"
+        "20.04"
       ]
     }
   ],
