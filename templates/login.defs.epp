@@ -7,6 +7,10 @@
 <% if $option[enabled] == false { -%>
 #<%= $setting %>	<%= $option['value'] %>
 <% } else { -%>
+<% if $option[key] { -%>
+<%= $option['key'] %>	<%= $option['value'] %>
+<% } else { -%>
 <%= $setting %>	<%= $option['value'] %>
+<% } -%>
 <% } -%>
 <% } -%>

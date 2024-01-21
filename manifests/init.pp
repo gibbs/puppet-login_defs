@@ -47,7 +47,7 @@ class login_defs (
     group   => $group,
     mode    => $mode,
     content => epp("${module_name}/login.defs.epp", {
-      options => lookup('login_defs::options') + $options,
+        options => lookup('login_defs::options') + $options,
     }),
   }
 }
