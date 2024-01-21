@@ -52,6 +52,7 @@ group :release_prep do
 end
 group :test do
   gem "puppet_metadata", '~> 2.0',       require: false
+  gem "puppet-blacksmith",               require: false
   gem "ed25519", '>= 1.2', '< 2.0',      require: false
   gem "bcrypt_pbkdf", '>= 1.0', '< 2.0', require: false
 end
