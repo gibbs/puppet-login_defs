@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org).
 
+## [v2.1.0](https://github.com/gibbs/puppet-login_defs/tree/v2.1.0) (2025-04-27)
+
+[Full Changelog](https://github.com/gibbs/puppet-login_defs/compare/v2.0.0...v2.1.0)
+
+### Added
+
+- Add Ubuntu 24.04 support [\#15](https://github.com/gibbs/puppet-login_defs/pull/15) ([gibbs](https://github.com/gibbs))
+- Remove Ubuntu 20.04 Support EOL [\#14](https://github.com/gibbs/puppet-login_defs/pull/14) ([gibbs](https://github.com/gibbs))
+- Remove Puppet 7 Support [\#12](https://github.com/gibbs/puppet-login_defs/pull/12) ([gibbs](https://github.com/gibbs))
+
 ## [v2.0.0](https://github.com/gibbs/puppet-login_defs/tree/v2.0.0) (2024-01-21)
 
 [Full Changelog](https://github.com/gibbs/puppet-login_defs/compare/v1.1.0...v2.0.0)
