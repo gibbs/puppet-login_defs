@@ -43,7 +43,8 @@ group :development do
 end
 group :development, :release_prep do
   gem "puppet-strings", '~> 4.0',         require: false
-  gem "puppetlabs_spec_helper", '~> 7.0', require: false
+  gem "puppetlabs_spec_helper", '~> 8.0', require: false
+  gem "puppet-blacksmith", '~> 7.0',      require: false
 end
 group :system_tests do
   gem "puppet_litmus", '~> 1.0',   require: false, platforms: [:ruby, :x64_mingw]
@@ -52,7 +53,6 @@ group :system_tests do
 end
 group :test do
   gem "puppet_metadata", '~> 4.0',       require: false
-  gem "puppet-blacksmith",               require: false
   gem "ed25519", '>= 1.2', '< 2.0',      require: false
   gem "bcrypt_pbkdf", '>= 1.0', '< 2.0', require: false
 end
